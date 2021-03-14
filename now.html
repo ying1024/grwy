@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个人主页-李英-nowdays</title>
+		<style>
+		
+			
+			#cd {
+				height: 500px;
+				width: 1500px;
+				background:url("img/tou1.png") no-repeat;
+				opacity: 0.8;
+				
+			}
+		
+			ul{
+				list-style-type: none;
+				padding: 0px;
+				margin: 0px;
+				margin: 0 auto;
+				
+			}
+			ul li{
+				text-align: center;
+				width: 120px;
+				display: block;
+				float: left;
+			}
+			.dh a{
+				color: #FFFFFF;
+				font-size: 25px;
+				font-family: "微软雅黑";
+			}
+			.dh a:hover{
+				font-size: 28px;
+			}
+			.zp1 {
+				float: left;
+			}
+			
+			.dh {
+				font-family: 幼圆;
+				font-size: 22px;
+				color: #ff9933;
+				width: 500px;
+				height: 400px;
+				margin-left: 800px;
+				padding-top: 70px;
+				text-align: center;
+				text-shadow: 0 0 5px #fff,0 0 10px #ff9933,0 0 15px #fff;
+				animation: dh 3s 1;
+			}
+			
+			@keyframes dh {
+				0% {
+					transform: left:150px;
+					opacity: 0;
+				}
+				10% {
+					transform: left:150px;
+					opacity: 0;
+				}
+				100% {
+					transform: left:150px;
+					opacity: 1;
+				}
+			}
+			/*招呼语浮现效果*/
+			
+			.neirong {
+				width: 1500px;
+				
+				margin: 0 auto;
+				background: url("img/cs.jpg")  0 150px no-repeat fixed #070506;
+				
+			}
+			
+			.span1 {
+				font-size: 25px;
+				font-family: 幼圆;
+				font-weight: 700;
+				color: #FFFFFF;
+				opacity: 0.5;
+				margin: 100px 0px 20px 80px;
+				clear: both;
+			}
+			
+			h3 {
+				font-size: 50px;
+				font-family: 微软雅黑;
+				margin: 100px 300px;
+				color: #fff;
+				text-shadow: 0 0 10px red, 0 0 20px #fff;
+			}
+			
+			h4 {
+				font-size: 25px;
+				text-align: center;
+			}
+			
+			.jz {
+				width: 1400px;
+				height: 500px;
+				margin: 0 auto;
+			}
+			
+			.div1 {
+				float: left;
+				width: 660px;
+				height: 520px;
+				margin: 20px;
+			}
+			
+			.div1a {
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.6;
+			}
+			
+			.div1azp {
+				float: left;
+				border-style: solid;
+				border-image: url("img/k1.png") 35 stretch;
+				border-width: 35px;
+			}
+			
+			.div2 {
+				float: left;
+				width: 570px;
+				height: 480px;
+				margin-left: 20px;
+			}
+			
+			.div3 {
+				float: left;
+				width: 420px;
+				height: 220px;
+				margin: 20px;
+			}
+			
+			.div4 {
+				float: left;
+				width: 320px;
+				height: 500px;
+				margin: 10px;
+			}
+			
+			.div5 {
+				float: right;
+				width: 380px;
+				height: 280px;
+				margin: 10px;
+			}
+			
+			.div6 {
+				float: right;
+				border-style: solid;
+				border-image: url("img/k1.png") 35 stretch;
+				border-width: 35px;
+			}
+			.div7{
+				float: left;
+				border-style: solid;
+				border-image: url("img/k4.png") 38 45 stretch stretch;
+				border-width: 38px 45px;
+			}
+			.div7:hover{transition:2s;transform: rotate(-10deg);}
+			.div7a{
+				float: left;
+				width: 180px;
+				color: #fff;
+				font-family: 幼圆;
+				font-size: 20px;
+				opacity: 0.6;
+			}
+			.div7a a{
+				color: #999999;
+			}
+			.div7a a:hover{
+				color: #fff;
+			}
+			.div8{margin: 0 auto;
+				width: 817px;
+				height: 520px;
+				border-style: solid;
+				border-image: url("img/k6.png") 20 24 80 24 stretch stretch ;
+				border-width: 20px 24px 80px 24px;
+				background: url("img/tsg.jpg") no-repeat;
+			}
+			.footer{
+					width: 1500px;
+					background:#666;
+					clear: both;
+					color: #FFFFFF;
+					text-align: center;
+					opacity: 0.8;
+					margin: 0 auto;
+					
+				}
+				
+				
+				.dxsh {
+				width: 375px;
+				height: 550px;
+				background: #070506;
+				float: left;
+				border: 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+				transition: width 0.5s, height 0.5s;
+			}
+			h2{
+				color: #fff;
+				font-size: 30px;
+				
+			}
+			a{
+				text-decoration: none;
+			}
+			#idjx:hover {
+				background-image: url("dxsh/jx1.jpg");
+			}
+			#idgqb:hover{
+				background: url("dxsh/gqb1.jpg");
+			}
+			#idhd:hover{
+				background: url(dxsh/hd1.jpg);
+			}
+			#idydh:hover{
+				background: url(dxsh/ydh1.jpg);
+			}
+			
+			.zw {
+				width: 1500px;
+				height: 500px;
+				display: none;
+			}
+			.ms{
+				width: 400px;
+				height: 150px;
+				float: left;
+				display: none;
+				
+				color: #fff;
+				font-size: 25px;
+				font-family: "微软雅黑";
+			}
+			.tiaozhuan {
+				width: 1500px;
+				height: 100px;
+				background: #666;
+				opacity: 0.5;
+				display: none;
+				justify-content: center;
+				
+				
+			}
+			#wdzy li{
+				width: 200px;
+				height: 100px;
+			
+				list-style-type: none;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+				color: #fff;
+				font-size: 22px;
+			}
+			#wdzy li:hover{
+				background: #999;
+			}
+		</style>
+		<script type="text/javascript">
+			var i1=0,i2=0,i3=0,i4=0;
+			window.onload=function(){
+				var owddx=document.getElementById("wddx");				
+				var olwddx=document.getElementById("lwddx");
+				var owdzy=document.getElementById("wdzy");
+				var olwdzy=document.getElementById("lwdzy");
+				var owdsy=document.getElementById("wdsy");
+				var olwdsy=document.getElementById("lwdsy");
+				owdzy.style.display="none";
+				owdsy.style.display="none";
+				
+				olwddx.onclick=function(){
+					owddx.style.display="block";
+					owdzy.style.display="none";
+					owdsy.style.display="none";
+					
+				}
+				olwdzy.onclick=function(){
+					owdzy.style.display="block";
+					owddx.style.display="none";
+					owdsy.style.display="none";
+				}
+				olwdsy.onclick=function(){
+					owdsy.style.display="block";
+					owddx.style.display="none";
+					owdzy.style.display="none";
+				}
+				
+				
+				var i=0;
+				var rukou = document.getElementsByClassName("dxsh");
+				var ozw = document.getElementsByClassName("zw");
+				var otiaozhuan = document.getElementsByClassName("tiaozhuan");
+				var ofh=document.getElementsByClassName("fh");
+				var bq = document.getElementsByTagName("h2");
+				var oup=document.getElementsByClassName("up");
+				var ojx=["url(dxsh/jx1.jpg)","url(dxsh/jx2.jpg)","url(dxsh/jx3.jpg)"] ;
+				var ohd=["url(dxsh/hd1.jpg)","url(dxsh/hd2.jpg)","url(dxsh/hd3.jpg)","url(dxsh/hd4.jpg)","url(dxsh/hd5.jpg)","url(dxsh/hd6.jpg)","url(dxsh/hd7.jpg)","url(dxsh/hd8.jpg)","url(dxsh/hd9.jpg)","url(dxsh/hd10.jpg)"];
+				var oydh=["url(dxsh/ydh1.jpg)","url(dxsh/ydh2.jpg)","url(dxsh/ydh3.jpg)","url(dxsh/ydh4.jpg)","url(dxsh/ydh5.jpg)"];
+				var ogqb=["url(dxsh/gqb1.jpg)","url(dxsh/gqb2.jpg)","url(dxsh/gqb3.jpg)","url(dxsh/gqb4.jpg)","url(dxsh/gqb5.jpg)","url(dxsh/gqb6.jpg)","url(dxsh/gqb7.jpg)"];
+				var oms_jx=["这是我们军训结束时的合照，我们连的同学来自三个学院，这样说的：工科、理科、文科 在此深入交融。如今一年就快过去了，我还是曾经那个我吗?","军训是真的热，但在刚进入大学对未来无限向往的我们面前，这都不算什么!现在看到当初的笑容是那么天真。","军训的照片太少了，晒张丑自拍来充个数嘛！(太阳是真的大，看到那明显的分界线了吗)"];
+				var oms_ydh=["都说重师小姐姐多，这就带你们看看！这是我们学校的运动会。","","全是小姐姐有木有！看够了没有？","","没有我？不可能！但这不是运动会期间的,一次羽毛球比赛,三等奖哦!"]
+				var oms_gqb=["国旗班的生活是我大一生活中不可缺少的一部分，很喜欢这个庄严的工作。","这是我们运动会开幕式升完国旗后的合照，也应该是我们国的第一次合照。","运动会开幕式进行中站着军姿，美不美？","帅不帅？","运动会开幕式进行中","这是我们到四川美术学院升旗","升旗仪式！"]
+				var oms_hd=["大学的活动确实多，这是一部舞台剧，虽然我只是一个群演和剧务，但是目睹了整部剧运作。深刻体会到完成一个作品团队意识的重要性。","这部剧非常的精彩，道具服装样样齐全。这是剧中的一个场景。","这是演员的合照，看到我了吗？","参观校史馆","班上同学和老师一起去爬山，这是真的山。","","每个男孩子都喜欢拆机器，对于计算机专业的我第一次拆开主机还是挺有意义的。","又一次剧务工作，这就是台前与幕后，其实真的只有一步之遥。","汪苏泷，熙街","百度推广，一节讲座，还是挺有意义的。"];
+				var onext=document.getElementsByClassName("next");
+				var oms=document.getElementsByClassName("ms");
+				rukou[0].onclick = function() {
+					i=i1;
+					rukou[1].style.display = "none";
+					rukou[2].style.display = "none";
+					rukou[3].style.display = "none";
+					rukou[0].style.width = "1500px";
+					rukou[0].style.height = "750px";
+					rukou[0].style.background = ojx[i];
+					oms[0].style.display="block";
+					bq[0].style.display="none";
+					ozw[0].style.display = "block";
+					otiaozhuan[0].style.display = "flex";
+					rukou[0].style.transition="width 0.5s,height 0.5s";
+					oms[0].innerText=oms_jx[i];
+					
+
+				}
+				ofh[0].onclick=function(oEvent){					
+					oEvent.stopPropagation();		
+					
+					ozw[0].style.display="none";
+					otiaozhuan[0].style.display="none";
+					rukou[0].style.width="375px";
+					rukou[0].style.height="550px";
+					rukou[1].style.display="flex";
+					rukou[2].style.display="flex";
+					rukou[3].style.display="flex";
+					rukou[0].style.transition="width 0s,height 0s";
+					oms[0].style.display="none";
+					bq[0].style.display="block";
+					i1=i;
+				}
+				oup[0].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i--;
+					if(i==-1)
+					i=2;
+					
+					rukou[0].style.background=ojx[i];
+					oms[0].innerText=oms_jx[i];
+				}
+				onext[0].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i++;
+					if(i==3)
+					i=0;
+					rukou[0].style.background=ojx[i];
+					oms[0].innerText=oms_jx[i];
+				}
+				rukou[1].onclick = function() {
+					i=i2;
+					rukou[0].style.display = "none";
+					rukou[2].style.display = "none";
+					rukou[3].style.display = "none";
+
+					rukou[1].style.width = "1500px";
+					rukou[1].style.height = "750px";
+					rukou[1].style.background = ohd[i];
+					oms[1].style.display="block";
+					bq[1].style.display="none";
+					ozw[1].style.display = "block";
+					otiaozhuan[1].style.display = "flex";
+					rukou[1].style.transition="width 0.5s,height 0.5s";
+					oms[1].innerText=oms_hd[i];
+					
+				}
+				ofh[1].onclick=function(oEvent){					
+					oEvent.stopPropagation();		
+					
+					ozw[1].style.display="none";
+					otiaozhuan[1].style.display="none";
+					rukou[1].style.width="375px";
+					rukou[1].style.height="550px";
+					rukou[0].style.display="flex";
+					rukou[2].style.display="flex";
+					rukou[3].style.display="flex";
+					rukou[1].style.transition="width 0s,height 0s";
+					oms[1].style.display="none";
+					bq[1].style.display="block";
+					i2=i;
+				}
+				oup[1].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i--;
+					if(i==-1)
+					i=9;
+					oms[1].innerText=oms_hd[i];
+					rukou[1].style.background=ohd[i];
+				}
+				onext[1].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i++;
+					if(i==10)
+					i=0;
+					rukou[1].style.background=ohd[i];
+					oms[1].innerText=oms_hd[i];
+				}
+				rukou[2].onclick = function() {
+					i=i3;
+					rukou[1].style.display = "none";
+					rukou[0].style.display = "none";
+					rukou[3].style.display = "none";
+
+					rukou[2].style.width = "1500px";
+					rukou[2].style.height = "750px";
+					rukou[2].style.background = oydh[i];
+					oms[2].style.display="block";
+					bq[2].style.display="none";
+					ozw[2].style.display = "block";
+					otiaozhuan[2].style.display = "flex";
+					rukou[2].style.transition="width 0.5s,height 0.5s";
+					oms[2].innerText=oms_ydh[i];
+					
+				}
+				ofh[2].onclick=function(oEvent){					
+					oEvent.stopPropagation();		
+					
+					ozw[2].style.display="none";
+					otiaozhuan[2].style.display="none";
+					rukou[2].style.width="375px";
+					rukou[2].style.height="550px";
+					rukou[0].style.display="flex";
+					rukou[1].style.display="flex";
+					rukou[3].style.display="flex";
+					rukou[2].style.transition="width 0s,height 0s";
+					oms[2].style.display="none";
+					bq[2].style.display="block";
+					i3=i;
+				}
+				oup[2].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i--;
+					if(i==-1)
+					i=4;
+					oms[2].innerText=oms_ydh[i];
+					rukou[2].style.background=oydh[i];
+				}
+				onext[2].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i++;
+					if(i==5)
+					i=0;
+					rukou[2].style.background=oydh[i];
+					oms[2].innerText=oms_ydh[i];
+				}
+				rukou[3].onclick = function() {
+					i=i4;
+					rukou[1].style.display = "none";
+					rukou[2].style.display = "none";
+					rukou[0].style.display = "none";
+
+					rukou[3].style.width = "1500px";
+					rukou[3].style.height = "750px";
+					rukou[3].style.background = ogqb[i];
+					oms[3].style.display="block";
+					bq[3].style.display="none";
+					ozw[3].style.display = "block";
+					otiaozhuan[3].style.display = "flex";
+					rukou[3].style.transition="width 0.5s,height 0.5s";
+					oms[3].innerText=oms_gqb[i];
+					
+				}
+				ofh[3].onclick=function(oEvent){					
+					oEvent.stopPropagation();		
+					
+					ozw[3].style.display="none";
+					otiaozhuan[3].style.display="none";
+					rukou[3].style.width="375px";
+					rukou[3].style.height="550px";
+					rukou[0].style.display="flex";
+					rukou[1].style.display="flex";
+					rukou[2].style.display="flex";
+					rukou[3].style.transition="width 0s,height 0s";
+					oms[3].style.display="none";
+					bq[3].style.display="block";
+					i4=i;
+				}
+				oup[3].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i--;
+					if(i==-1)
+					i=6;
+					oms[3].innerText=oms_gqb[i];
+					rukou[3].style.background=ogqb[i];
+					
+				}
+				onext[3].onclick=function(oEvent){
+					oEvent.stopPropagation();
+					i++;
+					if(i==7)
+					i=0;
+					rukou[3].style.background=ogqb[i];
+					oms[3].innerText=oms_gqb[i];
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<!--
+                             	所有内容
+                             -->
+		<div class="neirong">
+			<!--
+                             	页头和导航
+                             -->
+			<div id="cd">
+				<div class="dh">世界这么大，能遇见，不容易。<br><br>心若向阳，何惧忧伤。<br><br>人只要生活在这个世界上，就有很多烦恼。<br><br>痛苦或是快乐，取决于你的内心。<br><br>人不是战胜痛苦的强者，便是屈服于痛苦的弱者。<br><br>再重的担子，笑着也是挑，哭着也是挑。<br><br>再不顺的生活，微笑着撑过去了，就是胜利。<br><br><br>
+				<!--
+                          列表导航   	
+                             -->
+				<ul>
+				<li id="lwddx"><a href="#0">我的大学</a></li>
+				<li id="lwdzy"><a href="#0">大学生活</a></li>
+				<li id="lwdsy"><a href="#0">我的室友</a></li>
+				<li><a href="index.html">返回首页</a></li>
+			</ul>
+				</div>
+			</div>
+			<div id="wddx" >
+			<!--
+                             	我的大学
+                             -->
+			<h3 id="dx">我的大学</h3>
+			<div class="jz" >
+				<div class="div1">
+					<div class="div1azp"><img src="img/cnu.jpg" style="box-shadow: 0 0 20px #666;border-radius: 5px;"></div>
+					<!--
+                             	大学介绍
+                             -->
+					<div class="div1a">
+						<h4>学校简介</h4>&nbsp;&nbsp;重庆师范大学（Chongqing Normal University），简称“重庆师大”, 位于中国直辖市重庆，入选国家首批卓越农林人才教育培养计划和卓越教师培养计划，“马云乡村师范生计划”首批合作院校，是一所以教师教育为特色、多学科协调发展的综合性师范大学。<br>&nbsp;&nbsp; 重庆师范大学创办于1954年1月，时名重庆师范专科学校；1960年学校更名为重庆师范学院，同年获得本科专业设置资格；1962年复名为重庆师范专科学校，同时成都师范专科学校并入；1978年再次更名为重庆师范学院。1981年获得学士学位授予权；1986年获得硕士学位授予权。2001年5月，重庆幼儿师范学校、重庆纺织职工大学并入。2003年，学校改为现名；同年9月，重庆市第一师范学校并入。
+						<br>&nbsp;&nbsp; 重庆师范大学建有大学城校区、沙坪坝校区和北碚校区，校园总面积2804亩，教学科研仪器设备总值2.233亿元；馆藏纸质图书250余万册、电子图书104万种；下设17个二级学院、1个独立二级学院、70个本科专业（含方向）；全日制本科生27000余人、研究生3600余人，专兼任教师1700余人。
+					</div>
+				</div>
+				<div class="div1">
+					<div class="div1azp">
+						<img src="img/cnu1.jpg" style="box-shadow: 0 0 20px #666;border-radius: 5px;" />
+
+					</div>
+					<!--
+                             	我来重师的心理路程
+                             -->
+					<div class="div1a">
+						<h4>我来到重师</h4>&nbsp;&nbsp;高中时成绩不是很理想，很迷茫，不知道未来是什么样子。班主任经常激励我们，说大学生活怎么好怎么好，说得我们好生羡慕。我们班主任就是重师毕业的，她给我们讲她在大学生活，给我们看大学生活照。班上无不被大学生活和美丽重师吸引，但醒过来想想自己的成绩也就只能感叹现实与理想的差距。重师，其实我想都不敢想。<br>&nbsp;&nbsp; 有句话：梦想要有，万一实现了呢！
+						<br>&nbsp;&nbsp; 有些时候真的是说的那样，就在一番波折和机缘巧合下，我万分幸运的拿到了重师的录取通知书，看到录取轨迹的那一刹那，真的就像歌里唱的那样：我的天空，星星都亮了！
+					</div>
+				</div>
+			</div>
+			<!--
+                             	校园风光介绍
+                             -->
+			<div class="span1">校园风光</div>
+			<div class="jz">
+				<div class="div2">
+					<!--
+                             	博望亭介绍
+                             -->
+					<div class="div1azp"><img src="img/bwt.jpg"></div>
+					<div class="div1a">&nbsp;&nbsp;博望亭<br>&nbsp;&nbsp;还记得高中班主任说，由于重师女生多，重大男生多，而博望亭可以看到重大，所以都称博望亭为望夫亭。<br>&nbsp;&nbsp;她还说，山上的桃子熟了，她们提着麻袋去摘。<br>&nbsp;&nbsp;这种自由是当时在如山的书本后的我们无法想象的。</div>
+				</div>
+				<div class="div3">
+					<!--
+                             	体育馆
+                             -->
+					<div class="div1azp"><img src="img/tyg.jpg"></div>
+					<div class="div1a">&nbsp;&nbsp;体育馆<br>&nbsp;&nbsp;大学来的第一堂课--军训，就是在这里进行的，这个篮球场留给我的印象就是热，但现在回想起来蛮怀念的。</div>
+					<div class="div5">
+						<div class="div1azp"><img src="img/yx.jpg"></div>
+					</div>
+				</div>
+				<!--
+                          环境   	
+                             -->
+				<div class="div4">
+					<div class="div1azp"><img src="img/yxy.jpg"></div>
+					<div class="div1a">&nbsp;&nbsp;冬天到了，大学第一学期就要过去了，学校的银杏叶黄得那么好看。</div>
+				</div>
+			</div>
+			<div class="span1" id="zy">专业介绍·对未来的想象才刚刚开始</div>
+			<div class="jz">
+				<div class="div6"><img src="img/zy.jpg"></div>
+				<div class="div1a">&nbsp;&nbsp;时间倒回到20多年前的1994年，那一年的4月20日，中国实现与国际互联网的第一条TCP/IP全功能链接，成为互联网大家庭中一员。<br>&nbsp;&nbsp; 没人能够料想到，互联网会带给我们怎样的一个世界。20多年来，我们见证了创新、开放、自由、平等、共享的互联网精神。人类社会从未像今天一样密切协作、开放共享。
+					<br>&nbsp;&nbsp; “我的祖母80多岁了，今天在埃及开罗看大会直播，是互联网把我们连接在一起。”互联网名称与数字地址分配机构（ICANN）总裁法迪·切哈德在大会开幕式上感慨道。
+					<br>&nbsp;&nbsp; 在不久前的11月12日零点，据阿里巴巴集团公布的数据显示，今年天猫“双十一”全球网购狂欢交易额达到1600多亿元人民币，参与的网民来自200多个国家和地区。“今天，我坚信互联网不仅影响了这个世界，而且在未来还将进一步影响人类文明发展的方向。”阿里巴巴集团董事会主席马云表示。
+					<br>&nbsp;&nbsp; 不仅在中国，在世界各地，互联网信息通信技术都已成为各国经济发展的重要推动力。2009年，坦桑尼亚政府决定投资国家ICT互联网骨干网，“这使我们能够实现网络高水平的覆盖，并且极大提高了生产率和经济发展。”坦桑尼亚联合共和国通讯与科技部长马卡梅·姆巴拉瓦说。
+					<br>&nbsp;&nbsp; “互联网正逐步成为信息时代人类社会发展的战略性基础设施，推动着生产和生活方式的深刻变革，不断创造新业态、新市场，重塑经济社会发展的新模式。”在“互联网创造未来：共建在线地球村”分论坛上，国家互联网信息办公室副主任任贤良表示。
+					<br>&nbsp;&nbsp; 对未来的想象刚刚开始
+					<br>&nbsp;&nbsp; 互联网的快速发展，让今天的我们无论如何畅想，也无法预料20年后互联网又将带我们走向何方。
+					<br>&nbsp;&nbsp; “现在，互联网移动技术使得我们在未来几年内就会有接近10亿人拥有移动技术。在几年时间内，整个世界人口的50%都可以接入互联网。”在爱尔兰共和国前总理伯蒂·艾亨看来，如今的消费者正在越来越多地使用信息技术，来改变个人的生活和工作方式、社交方式，“这在以前没有办法想象”。
+					<br>&nbsp;&nbsp; “有数据显示，全球50%的社交网络用户会进行新闻故事、图片或者视频的分享，中国在社交平台上分享新闻的用户高达78.5%。”新华网总裁田舒斌在“新媒体新生态”分论坛上指出，新媒体新生态链光速般延伸，改变了原有的媒体生态体系。他提议，业界有必要对新媒体生态状况进行反思。
+					<br>&nbsp;&nbsp; 汤森路透集团全球总裁兼首席执行官吉姆·斯密斯则认为，未来，互联网将完全融入我们生活的每一部分，“每个人都能够瞬间收发信息，互联网还将用于监测、改变和衡量社会”。
+					<br>&nbsp;&nbsp; “让每个机械、每个汽车、每个车床、每个灯泡都连到互联网上，这个连接刚刚开始。”宽带资本董事长田溯宁感言，如果过去20年我们经历的是消费者互联网时代，未来20年将优胜劣汰迎接产业互联网时刻的到来，“未来是什么样的一种生活，今天的想象才刚刚开始。”
+					<br>&nbsp;&nbsp;
+				</div>
+			</div>
+			</div>
+			<!--
+                             	专业介绍
+                             -->
+            <div id="wdzy">
+            	<a href="#0">
+				<div id="idjx" class="dxsh">
+					<h2>军训</h2><div class="zw"></div><div class="ms"></div>
+					
+					<div class="tiaozhuan">
+						<a href="#0">
+							<li class="up">上一条</li>
+						</a>
+						<a href="#0">
+							<li class="next">下一条</li>
+						</a>
+						<a href="#0">
+							<li class="fh">返回</li>
+						</a>
+					</div>
+				</div>
+			</a>
+			<a href="#0">
+				<div class="dxsh" id="idhd">
+					<h2>活动</h2><div class="zw"></div><div class="ms"></div>
+					
+					<div class="tiaozhuan">
+						<a href="#0">
+							<li class="up">上一条</li>
+						</a>
+						<a href="#0">
+							<li class="next">下一条</li>
+						</a>
+						<a href="#0">
+							<li class="fh">返回</li>
+						</a>
+					</div></div>
+			</a>
+			<a href="#0">
+				<div class="dxsh" id="idydh">
+					<h2>运动会</h2><div class="zw"></div><div class="ms"></div>
+					
+					<div class="tiaozhuan">
+						<a href="#0">
+							<li class="up">上一条</li>
+						</a>
+						<a href="#0">
+							<li class="next">下一条</li>
+						</a>
+						<a href="#0">
+							<li class="fh">返回</li>
+						</a>
+					</div></div>
+			</a>
+			<a href="#0">
+				<div class="dxsh" id="idgqb">
+					<h2>国旗班</h2><div class="zw"></div><div class="ms"></div>
+					
+					<div class="tiaozhuan">
+						<a href="#0">
+							<li class="up">上一条</li>
+						</a>
+						<a href="#0">
+							<li class="next">下一条</li>
+						</a>
+						<a href="#0">
+							<li class="fh">返回</li>
+						</a>
+					</div></div>
+			</a>
+			
+            </div>
+			<!--
+                             	室友介绍
+                             -->
+            <div id="wdsy">
+			<h3 id="sy">我的室友</h3>
+			<div class="jz">
+				<div class="div7">
+					<img src="img/zy.png"></div><div class="div7a"><h4>朱有</h4>&nbsp;&nbsp;大学认识的第一个同学，第一眼看到时，一个子弹头，感觉有点社会。但很快跟他聊了起来，很健谈。喜欢唱歌，每次在寝室唱起歌我就默默戴上耳机，把声音调大。进入<a href="http://okok.dev.dxdc.net/grwz/" target="_blank">他的主页</a>了解更多吧。
+				</div>
+				<div class="div7"><img src="img/lgy.png"></div><div class="div7a"><h4>李光银</h4>&nbsp;&nbsp;做事情非常认真，一件小事他能说出一大堆道理出来，这个时候在他面前的我就如同念紧箍咒的唐僧面前的孙悟空。他学过动漫，ps，美术，什么都很厉害，进入<a href="http://rigin.dev.dxdc.net/grwz/" target="_blank">他的主页</a>看看他有多厉害。</div>
+				<div class="div7"><img src="img/hdc.png"></div><div class="div7a"><h4>何东川</h4>&nbsp;&nbsp;也喜欢唱歌，他唱歌的确好听。学习也很好，各种巧妙算法让你只喊服。平时很浮夸，各种肢体动作，各种骚姿势。来看看他<a href="http://nixia.dev.dxdc.net/grwz/" target="_blank">浮夸的主页</a>吧！</div>
+			</div>
+            
+			<!--
+                             	随手拍视频
+                             -->
+			<div class="div8"><iframe height=520 width=817 src='http://player.youku.com/embed/XMzMwNzM5NTQ2MA==' frameborder=0 'allowfullscreen'></iframe></div>
+		</div></div>
+		<!--
+                             	页脚
+                             -->
+		<div class="footer">
+			<hr width="1200">个人主页丨现在丨李英<br>&copy;重庆师范大学计算机与信息科学学院2017级职教丨李英制作丨版权所有<br>电话：13372624551丨QQ：2239388293丨邮箱：2239388293@qq.com
+		</div>
+	</body>
+
+</html>

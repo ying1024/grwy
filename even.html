@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人主页-李英-At one time</title>
+		<style>
+		
+			
+			.cd {
+				height: 500px;
+				width: 1500px;
+				background: url("img/tou.jpg") no-repeat;
+				opacity: 0.8;
+				
+			}
+			ul{
+				list-style-type: none;
+				padding: 0px;
+				margin: 0px;
+				margin: 0 auto;
+				
+			}
+			li{
+				text-align: center;
+				width: 150px;
+				display: block;
+				float: left;
+			}
+			a{
+				color: #FFFFFF;
+				font-size: 25px;
+				font-family: "微软雅黑";
+			}
+			a:hover{
+				font-size: 28px;
+			}
+			
+			.dh {
+				font-family: 幼圆;
+				font-size: 22px;
+				color: #fff;
+				width: 600px;
+				height: 400px;
+				margin-left: 200px;
+				float: left;
+				text-align: center;
+				margin-top: 30px;
+				animation: dh 3s 1;
+				text-shadow: 0 0 5px #fff,0 0 10px #00b7ff,0 0 15px #fff;
+			}
+			
+			@keyframes dh {
+				0% {
+					transform: left:150px;
+					opacity: 0;
+				}
+				10% {
+					transform: left:150px;
+					opacity: 0;
+				}
+				100% {
+					transform: left:150px;
+					opacity: 1;
+				}
+			}
+			/*招呼语浮现效果*/
+			
+			.neirong {
+				width: 1500px;
+			
+				margin: 0 auto;
+				background: url("img/cs.jpg")  0 150px no-repeat fixed #070506;
+			}
+			h3 {
+				font-size: 50px;
+				font-family: 微软雅黑;
+				margin: 100px 300px;
+				color: #fff;
+				text-shadow: 0 0 10px red, 0 0 20px #fff;
+			}
+			.jz {
+				width: 1400px;
+				margin: 0 auto;
+				
+			}
+			#divts{
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.8;
+				font-size: 22px;
+				text-shadow: 0 0 3px #fff,0 0 5px #fff,0 0 10px #fff;
+				margin-bottom: 80px;
+			}
+			#cz{
+				
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.8;
+				font-size: 22px;
+				text-shadow: 0 0 3px #fff,0 0 5px #fff,0 0 10px #fff;
+				margin-bottom: 80px;
+			}
+			#gz{
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.8;
+				font-size: 22px;
+				text-shadow: 0 0 3px #fff,0 0 5px #fff,0 0 10px #fff;
+				margin-bottom: 80px;
+			}
+			.div1 {
+				
+				width: 1300px;
+				height: 450px;
+				margin: 20px;
+				
+			}
+			.div1a {
+				
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.7;
+				font-size: 20px;
+				
+			}
+			span{
+				font-size: 25px;
+				font-weight: bold;
+			}
+			.div1azp{
+				float: left;
+				border-style: solid;
+				border-image: url("img/k2.png") 20 stretch;
+				border-width: 20px;
+			}
+			
+			.div1azp:hover{transition:2s;transform: rotate(-10deg);}
+			.div2azp:hover{transition:2s;transform: rotate(-10deg);}
+			.div3a:hover{transition:2s;transform: rotate(-10deg);}
+			.div4zp:hover{transition:2s;transform: rotate(-10deg);}
+			.div5zp:hover{transition:2s;transform: rotate(-10deg);}
+			.div2azp{
+				float: right;
+				border-style: solid;
+				border-image: url("img/k2.png") 20 stretch;
+				border-width: 20px;
+				margin-right: 80px;
+			}
+			.div2a{float: right;
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.7;
+				font-size: 20px;
+				width: 600px;
+				margin-top: 60px;
+				margin-right: 80px;
+				
+			}
+			.div3sf{
+				float: left;
+				width: 390px;
+				height: 450px;
+				font-family: 幼圆;
+				color: #FFFFFF;
+				margin-top: 50px;
+				font-size: 20px;
+				text-align: center;
+			}
+			.div3a{
+				float: left;
+				border-style: solid;
+				border-image: url("img/k4.png") 38 45 stretch stretch;
+				border-width: 38px 45px;
+				margin-top: 55px;
+				margin-left: 50px;
+				
+			}
+			.div3b{float: left;
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.7;
+				font-size: 20px;
+				width: 300px;
+				height: 200px;
+				margin-top: 150px;
+				margin-left: 50px;
+			
+			}
+			.div4zp{
+				float: right;
+				border-style: solid;
+				border-image: url("img/k4.png") 38 45 stretch stretch;
+				border-width: 38px 45px;
+				margin-right:150px;
+			}
+			.div4a{
+				float: right;
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.7;
+				font-size: 20px;
+				width: 300px;
+				margin-top: 60px;
+				margin-right: 80px;
+			}
+			.div5zp{
+				float: left;
+				border-style: solid;
+				border-image: url("img/k4.png") 38 45 stretch stretch;
+				border-width: 38px 45px;
+			}
+			.div5a{
+				margin-top: 50px;
+				float: left;
+				font-family: 幼圆;
+				color: #FFFFFF;
+				opacity: 0.7;
+				font-size: 20px;
+				width: 200px;
+				height: 400px;
+			}
+			.div6{
+				width: 1400px;
+				height: 800px;
+				
+			}
+			.div6zp{
+				float: right;
+				width: 800px;
+				height: 600px;
+				border-style: solid;
+				border-image: url("img/k1.png") 35 stretch;
+				border-width: 35px;
+				animation:div6zp 32s linear infinite ;
+				
+				background:url("syzx/1.jpg") no-repeat;
+			}
+			.div8{margin: 0 auto;
+				width: 817px;
+				height: 520px;
+				border-style: solid;
+				border-image: url("img/k6.png") 20 24 80 24 stretch stretch ;
+				border-width: 20px 24px 80px 24px;
+				background: url("img/cc.jpg") no-repeat;
+			}
+			@keyframes div6zp {
+				0% {
+					 background:url("syzx/1.jpg") no-repeat;
+					
+				}
+				10% {
+					 background:url("syzx/1.jpg") no-repeat;
+					
+				}
+				13% {
+					 background:url("syzx/2.jpg") no-repeat;
+					
+				}
+				23% {
+					background:url("syzx/2.jpg") no-repeat;
+					
+				}
+				26% {
+					 background:url("syzx/3.jpg") no-repeat;
+					
+				}
+				36% {
+					 background:url("syzx/3.jpg") no-repeat;
+					
+				}
+				39% {
+					 background:url("syzx/4.jpg") no-repeat;
+					
+				}
+				49% {
+					 background:url("syzx/4.jpg") no-repeat;
+					
+				}
+				51% {
+					background:url("syzx/5.jpg") no-repeat;
+					
+				}
+				61% {
+					 background:url("syzx/5.jpg") no-repeat;
+					
+				}
+				64% {
+					 background:url("syzx/6.jpg") no-repeat;
+					
+				}
+				74% {
+					 background:url("syzx/6.jpg") no-repeat;
+					
+				}
+				77% {
+					background:url("syzx/7.jpg") no-repeat;
+					
+				}
+				87% {
+					 background:url("syzx/7.jpg") no-repeat;
+					
+				}
+				90% {
+					 background:#000000 url("syzx/8.png") no-repeat;
+					
+				}
+				100% {
+					 background:#000000 url("syzx/8.png") no-repeat ;
+					
+				}
+			}
+			.footer{
+					clear: both;
+					color: #FFFFFF;
+					text-align: center;
+					opacity: 0.8;
+					width: 1500px;
+					margin: 0 auto;
+					background: #666;
+				}
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+				owdjr=document.getElementById("wdjr");
+				olwdjr=document.getElementById("lwdjr");
+				owdcz=document.getElementById("wdcz");
+				olwdcz=document.getElementById("lwdcz");
+				owdgz=document.getElementById("wdgz");
+				olwdgz=document.getElementById("lwdgz");
+				owdcz.style.display="none";
+				owdgz.style.display="none";
+				olwdjr.onclick=function(){
+					owdjr.style.display="block";
+					owdcz.style.display="none";
+					owdgz.style.display="none";
+				}
+				olwdcz.onclick=function(){
+					owdjr.style.display="none";
+					owdcz.style.display="block";
+					owdgz.style.display="none";
+				}
+				olwdgz.onclick=function(){
+					owdjr.style.display="none";
+					owdcz.style.display="none";
+					owdgz.style.display="block";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<!--
+                             	网页所有内容
+                             -->
+		<div class="neirong">
+			<!--
+                             	页头和导航
+                             -->
+			<div class="cd"><div class="dh">春天来了<br><br>我要把心灵放回萦绕柔肠的远方。<br><br>让心灵长出北归大雁的翅膀，乘着吹动彩云的熏风<br><br>捧着湿润江南的霡霂，唱着荡漾晨舟的渔歌<br><br>沾着充盈夜窗的芬芳，回到久别的家乡。<br><br>我翻开解冻的泥土，挖出埋藏在这里的梦<br><br>让她沐浴灿烂的阳光<br><br>期待她慢慢长出枝蔓，结下向往已久的真爱的果实。<br><br><br>
+			<!--
+                           列表导航  	
+                             -->
+			<ul>
+				<li id="lwdjr"><a href="#0">我的家人</a></li>
+				<li id="lwdcz"><a href="#0">我的初中</a></li>
+				<li id="lwdgz"><a href="#0">我的高中</a></li>
+				<li><a href="index.html">返回首页</a></li>
+			</ul>
+</div></div>
+		<div id="wdjr">
+		<h3>我的家人</h3>
+		<!--
+                             	我的家人
+                             -->
+		<div class="jz">
+			<div id="divts">下面是我对家人的介绍，你可以把它当作一个故事看，这个故事很简，但完全真实，如果你认真看了，你就了解我了。</div>
+			<!--
+                             	奶奶介绍
+                             -->
+			<div class="div1"><div class="div1azp"><img src="img/nn.jpg"></div>
+			<div class="div1a">&nbsp;&nbsp;&nbsp;<span>奶奶</span><br>&nbsp;&nbsp;&nbsp;奶奶是一个很坚强的人，奶奶只有俩姐姐，而且都大她很多，她还很小的时候俩姐姐都嫁出去了。而父母已经很老了，家庭的重担就落到了她小小的肩上。家中的老人；圈里的畜牲；坡上的地，都靠她小小的双手运作起来。就这样幸苦地拖到了大，接了婚。可更苦的日子还在后面，就在爸爸一岁，幺爸还怀着的时候，爷爷在煤场出事去世了。而在那个年代并没有得到一分钱的赔偿。就这样，她又重操她的旧业。与以前不同的是，多了两个孩子，老人更老了。就连在怀了幺爸八个月的时候，奶奶还在地里干活。<br>&nbsp;&nbsp;&nbsp;如果说这是奶奶身体的承受，那它心理上承受的也不少。为了换取劳动力，爸爸很小就得去帮人干活，受到别人的挖苦和嘲笑，奶奶看在眼里，心里又是什么滋味。爸爸小时候成绩非常好，但因家庭经济原因辍学，看着爸爸渴望的眼神，奶奶的无奈，那时候谁又能懂。爸爸和幺爸每年只有一双鞋，看着他们下雨天宁愿光着脚干活也不愿弄湿了鞋子，奶奶心里又有多心酸。爸爸十几岁就出去打工，过了好久，爸爸寄回的照片上他还是出去时的那身衣服，她看着照片哭了多少次。幺爸十八岁时工作的火炮厂着火，全身烧伤，幺爸一个人在医院，她在千里之外一眼都不能看到，半年时间她头发全白了，难以想象她在这半年里经历了怎样的煎熬。
+				<br>&nbsp;&nbsp;&nbsp;我小时候很长一段时间就是我和奶奶两个人生活，我在学校被别人欺负了，她找到了别人家里；走人户，有什么好吃的她都留给我；夏天的夜晚我们坐在坝子乘凉，她给我讲故事听；冬天她不准我搞雪，我们在小小的炉子屋里面烤火...
+			</div>
+			</div>
+			<div class="div1">
+				<div class="div2azp"><img src="img/family.jpg"></div>
+				<!--
+                             爸爸妈妈和妹妹的介绍	
+                             -->
+				<div class="div2a">
+					<br>&nbsp;&nbsp;&nbsp;爸爸还在读书的时候，没交学费学校不发书，爸爸就只能看别人的，拖着拖着学校还是发了，学费只能等庄家收了卖了才有得交。白天忙农活，只有晚上做作业。有了他小时候得经历，他努力为我和妹妹创造更好的学习条件，在学习方面不管有什么需求，他都尽可能的满足我们，对我们的学习他也是非常严厉的。小时候我作业做不好被他撕过本子；他送我去学校鞋被洪水冲走了；送我去镇里打超贵的预防针...<br>&nbsp;&nbsp;&nbsp;妈妈缝衣服缝的真的好，完全看不出来缝过。还记得她有一次打工回来给我带了一个我 从未见过的大西瓜哄我说是在屋后的小山林里摘的；记得她给我拐枣说这个可以吃；记得一次我差点走丢后她红红的眼眶；记得她又一次出去打工时穿的蓝白衬衫...
+					<br>&nbsp;&nbsp;&nbsp;小时候经常欺负妹妹，不知道她还记得我背她上去上学吗，从她上初中开始，我们就一年都没见过几次了，如今她也高二了，希望一年后的她也能金榜题名。
+				</div>
+			</div>
+			<!--
+                             	家人活动和介绍
+                             -->
+			<div class="div1">
+				<div class="div3sf"><div class="div1azp"><img src="img/sf.jpg"></div>爸爸和幺爸给爷爷上坟
+				</div>
+				
+				<div class="div3a"><img src="img/dp.jpg"></div><div class="div3b">妈妈有八个兄弟姐妹，所以我的表兄弟姐妹就更多了，小时候哥哥姐姐们对我非常照顾，谢谢他们！每年过年都很热闹，这是我们过年后在一起打牌。</div>
+			</div>
+			<div class="div1">
+				<div class="div4zp"><img src="img/qq.jpg"></div>
+				<div class="div4a">&nbsp;&nbsp;&nbsp;这是我堂弟，小时候去哪都要我背，还特别犟，一次我要去读书，他哭着追了我好远的路。<br>&nbsp;&nbsp;&nbsp;多久不见，不知他是否还调皮；是否认真学习；是否还爱玩游戏...</div>
+			</div>
+		</div></div>
+		<!--
+                             	我的母校介绍
+                             -->
+		
+		<div id="wdcz" class="jz">
+			<!--
+                             	初中母校介绍
+                             -->
+		<h3>我的初中</h3>
+		<div class="div1"><div class="div5zp"><img src="img/gsq.jpg"></div><div class="div5a">&nbsp;&nbsp;&nbsp;逢春学校<br>这是我小学和初中上的学校，很小也很偏僻，但这里有陪我长大的小伙伴；有最纯真的友谊；有最好的老师，左图顶上那句话是老师亲手写来送给我们的，至今受益。</div><div class="div5zp"><img src="img/by.jpg"></div></div>
+		</div><!--
+                      高中母校介绍       	
+                             -->
+        <div id="wdgz">
+        <div class="jz">
+       <h3>我的高中</h3>
+		<div class="div6"><div class="div6zp"></div><div class="div1a">&nbsp;&nbsp;&nbsp;<span>重庆市綦江实验中学校</span>（Chongqing Qijiang Experimental Middle School）地处巍巍古剑山下，潺潺綦河畔，毗邻美丽的南州公园，是重庆市重点中学、全国教育科学“十五”规划国家重点课题学校、全国青少年计算机科技创新实践教育示范基地、全国青少年普法教育先进单位、教育部首届全国青少年学生法治知识网络大赛杰出组织学校、綦江区师资培训中心、普通话测试中心和现代教育技术培训考试中心。<br>&nbsp;&nbsp;&nbsp;
+学校始建于1942年，1999年綦江师范学校与綦江教师进修学校合处办学，2009年1月13日，学校被重庆市人民政府命名重庆市重点中学，实施完全的普通高中教育。<br>重庆市綦江实验中学校创建于1942年8月，始为“綦江县立简易师范学校”。<br>&nbsp;&nbsp;&nbsp;
+1948年8月，学校更名为“綦江县立师范学校”。<br>&nbsp;&nbsp;&nbsp;
+新中国成立后，1950年11月学校更名为“川东区綦江师范学校”。<br>&nbsp;&nbsp;&nbsp;
+1952年11月，更名为“四川省綦江师范学校”。<br>&nbsp;&nbsp;&nbsp;
+重庆直辖后，学校更名为“重庆市綦江师范学校”。<br>&nbsp;&nbsp;&nbsp;
+1999年1月4日，学校与綦江县教师进修学校合处办学。<br>&nbsp;&nbsp;&nbsp;
+2009年7月，綦江县教师进修学校剥离。<br>&nbsp;&nbsp;&nbsp;
+2010年6月最后一届中师生毕业，学校师范育人圆满结束。<br>&nbsp;&nbsp;&nbsp;
+辉煌的68个春秋，綦师共培养师范毕业生10913人，高中毕生业生5243人，职后培训108399人，特别是在培养扎根农村山区小学教师，培养学生教师技能方面做出了巨大的成绩。学校被重庆市评定为中师办学水平“优秀”等级，先后被评为“全国五四红旗团委创建单位”“重庆市民主管理示范学校”“重庆市德育工作先进单位”“重庆市园林式单位”。<br>&nbsp;&nbsp;&nbsp;
+2001年9月，学校开办高中班。2005年4月，重庆市教委批准学校增设“重庆市綦江实验中学校”，并于2005年9月挂牌，正式开办普通高中教育。2009年1月13日，学校被重庆市人民政府命名重庆市重点中学，实施完全的普通高中教育。<br>&nbsp;&nbsp;&nbsp;
+</div></div>
+		</div>
+		<!--
+                     高中宣传片视频        	
+                             -->
+		<div class="div8"><iframe height=520 width=817 src='http://player.youku.com/embed/XMTU4MjEzMzQ2MA==' frameborder=0 'allowfullscreen'></iframe></div>
+		</div></div>
+		<!--
+                             	页脚
+                             -->
+		<div class="footer">
+			<hr width="1200">个人主页丨曾经丨李英<br>&copy;重庆师范大学计算机与信息科学学院2017级职教丨李英制作丨版权所有<br>电话：13372624551丨QQ：2239388293丨邮箱：2239388293@qq.com
+		</div>
+	</body>
+</html>

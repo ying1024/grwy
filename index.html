@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="个人主页,李英,李英个人主页,学生个人主页,主页,重庆师范大学,计算机,网页" />
+		<meta name="author" content="李英" />
+		<meta name="discription" content="这是一个学生个人网页，大学第一个学期的学习成果，不是很好，但我会努力做得更好。" />
+		<title>个人主页-李英-首页</title>
+		<style>
+			body{
+				padding: 0px;
+			}
+			
+			.cd {
+				height: 500px;
+				width: 1500px;
+				background: url("img/tou2.jpg") no-repeat;
+				opacity: 0.8;
+			}
+			/*网页头的样式定义*/
+			.zp1 {
+				float: left;
+			}
+			
+			.dh {
+				font-family: 幼圆;
+				font-size: 22px;
+				color: #00b7ff;
+				width: 600px;
+				height: 400px;
+				margin-left: 200px;
+				padding-top: 80px;
+				text-align: center;
+				animation: dh 3s 1;
+				text-shadow: 0 0 5px #fff,0 0 10px #00b7ff,0 0 15px #fff;
+			}
+			
+			@keyframes dh {
+				0% {
+					transform: left:150px;
+					opacity: 0;
+				}
+				10% {
+					transform: left:150px;
+					opacity: 0;
+				}
+				100% {
+					transform: left:150px;
+					opacity: 1;
+				}
+			}
+			/*招呼语浮现效果*/
+			
+			.neirong {
+				padding: 0px;
+				margin: 0px;
+				width: 1500px;
+				height: 1800px;
+				margin: 0 auto;
+				background: url("img/cs.jpg") 0 150px no-repeat fixed #070506;
+			}
+			
+			.jz {
+				width: 1400px;height: 460px;
+				margin: 0 auto;
+				
+			}
+			
+			.div1 {
+				float: left;
+				width: 700px;
+				height: 390px;
+				margin-top: 80px;
+				margin-left: 50px;
+			
+			}
+			
+			.div1azp {
+				float: left;
+				border-style: solid;
+				border-image: url("img/k2.png") 20 stretch;
+				border-width: 20px;
+			}
+			.div2{
+				width: 500px;
+				height: 300px;
+				float: left;
+				margin-top: 80px;
+				border-style: solid;
+				border-image: url("img/k1.png") 35 stretch;
+				border-width: 35px;
+				font-family: 幼圆;
+				font-size: 20px;
+				color: #FFFFFF;
+				opacity: 0.8;
+			}
+			.div3{
+				width: 1200px;
+				height: 436px;
+				
+				
+				
+			}
+			.div3a{
+				
+				font-family: 幼圆;
+				font-size: 20px;
+				color: #FFFFFF;
+				opacity: 0.8;
+				padding: 50px;
+				width: 400px;
+			}
+			.div3tu{
+				float: right;
+				margin-top: 20px;
+				border-style: solid;
+				border-image: url("img/k3.png") 18 stretch;
+				border-width: 18px;
+			}
+			.div3tu:hover{transition:2s;transform: rotate(-10deg);}
+			.div2:hover{transition:2s;transform: rotate(-10deg);}
+			h4 {
+				font-size: 30px;
+				text-align: center;
+			}
+			span{
+				font-size: 25px;
+				font-weight: bold;
+			}
+			.links {
+				width: 1500px;
+				margin: 0 auto;
+				margin-top: 30px;
+				color: #fff;
+				font: bold 100px "微软雅黑", "lucida Grande", arial;
+				text-transform: uppercase;
+				opacity: 0.6;
+			}
+			/*对菜单内字体的设置*/
+			
+			.links table tr td {
+				width: 800px;
+				background: #666666;
+				text-shadow: 0 0 30px #00b7ff;
+				-webkit-box-shadow: 0 0 20px #fff;
+				-moz-box-shadow: 0 0 20px #fff;
+				box-shadow: 0 0 20px #fff;
+				border-radius: 10px;
+			}
+			/*对菜单的样式和大小定义*/
+			
+			table tr td a {
+				text-decoration: none;
+				color: #fff;
+			}
+			/*修改a标记默认样式*/
+			
+			#cdwz td:hover {
+				background: #999;
+			}
+			/*鼠标移入菜单效果*/
+			
+			#cdwz td:active {
+				background: #999999;
+				-webkit-box-shadow: inset 0 0 30px #000;
+				-moz-box-shadow: inset 0 0 30px #000;
+				box-shadow: inset 0 0 30px #000;
+				text-shadow: 1px 1px 5px #fff;
+			}
+			/*单击菜单未放时效果*/
+			
+			.jbxx {
+				
+				margin-left: 50px;
+				display: none;
+				/*隐藏*/
+				
+				opacity: 0.7;
+				width: 300px;
+				float: left;
+				font-family: "微软雅黑";
+				font-size: 20px;
+				color: #fff;
+				border-radius: 10px;
+				}
+				embed{
+					opacity: 0;
+				}
+				.footer{
+					margin: 0px;
+					padding: 0px;
+					background: #666;
+					width: 1500px;
+					clear: both;
+					color: #FFFFFF;
+					text-align: center;
+					opacity: 0.8;
+					margin: 0 auto;
+				}
+		</style>
+		<script src="js\jquery.js" type="text/javascript"></script>
+		<script type="application/javascript">
+			$(function() {
+				$(".div1azp").mouseover(function() {
+					$(".jbxx").show();
+				})
+				$(".div1azp").mouseout(function() {
+					$(".jbxx").hide();
+				})
+			})
+			$(function() {
+				$(".div3tu").mouseover(function() {
+					$(".jbxx").show();
+				})
+				$(".div3tu").mouseout(function() {
+					$(".jbxx").hide();
+				})
+			})//基本信息显示效果
+			
+			
+		</script>
+		
+	</head>
+
+	<body>
+		<div class="neirong">
+                             <!--
+                             	整个网页的内容
+                             	
+                             -->
+                             <!--
+                             	欢迎语和页头
+                             -->
+			<div class="cd">
+				<div class="dh">hello朋友<br><br>非常欢迎和感谢朋友能光临本页<br><br>这是本人大学第一学期的大作业<br><br>本页有许多差劲和不足的地方还望不要见笑<br><br>若有批评和建议欢迎提出。<br><br>望学到更多东西在将来有更好的作品。<br><br>也望朋友生活愉快，天天开心。</div>
+			</div>
+			<!--
+                             	表格菜单
+                             -->
+			<div class="links" id="cdwz">
+				<table border="0" cellspacing="50" cellpadding="0">
+					<tr>
+						<td>
+							<a href="even.html">at&nbsp;one&nbsp;time</a>
+						</td>
+						<td>
+							<a href="now.html">&nbsp;nowadays</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="jz"><!--
+                             	个人照片和基本信息
+                             -->
+				<div class="div1">
+					<div class="div1azp"><img src="img/me.jpg"></div>
+					<div class="jbxx">
+						<h4>基本信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+						<ul>
+							<li>姓名：李英</li>
+							<li>性别：男</li>
+							<li>学校：重庆师范大学</li>
+							<li>专业：计师</li>
+							<li>学号：2017051611007</li>
+							<li>年级：2017级</li>
+							<li>QQ：2239388293</li>
+							<li>电话：13372624551</li>
+						</ul>
+					</div>
+				</div>
+				<!--
+                             	职业规划
+                             -->
+				<div class="div2">
+					<h4>职业规划</h4>
+					&nbsp;&nbsp;&nbsp;以前觉得计算机洋气，好耍，就选择了计算机这个专业。来了才知道，计算机并不是想象的那么简单，但它深深的奥妙引起了我极大的兴趣。经过一学期的学习，我们已经可以用网页表达自己的想法，这是令人兴奋的事情。希望自己以后能从事web方面的工作。近期目标，完成web大作业，复习准备考试；中期目标，打好专业基础；后期目标，顺利毕业，找到工作。
+				</div>
+			</div>
+			<div class="jz">
+				<div class="div3">
+					<!--
+                             	爱好和特长以及图片
+                             -->
+					<div class="div3tu"><img src="img/ymq.jpg"></div>
+					<div class="div3a">
+						<span>爱好和特长</span><br>爱好：听音乐、上网、看书、运动，尤其喜欢羽毛球<br>
+						性格特点：待人随和，外冷内热。<br>
+						个人优点：心态良好、心地善良、做事踏实谨慎、遇事比较理智<br>
+						个人缺点：做事缺乏恒心、不够大胆、事业心不强<br>
+						生活中失败教训：不好好学习，导致成绩下降<br>
+						特长：腿特长
+
+					</div>
+				</div>
+			</div>
+			<!--
+                             	音乐播放器
+                             -->
+			<embed src="http://ying.dev.dxdc.net/music/LenkaTroubleIsaFriend.mp3"></embed>
+		</div>
+		<!--
+                             	页脚
+                             -->
+		<div class="footer">
+			<hr width="1200">个人主页丨首页丨李英<br>&copy;重庆师范大学计算机与信息科学学院2017级职教丨李英制作丨版权所有<br>电话：13372624551丨QQ：2239388293丨邮箱：2239388293@qq.com
+		</div>
+	</body>
+
+</html>
